@@ -1,0 +1,59 @@
+@keyframes change {
+    0% {color:skyblue; }
+    25% {color: orange; }
+    50% {color:seagreen;}
+    75% {color: orange; }
+    100%{color: skyblue;}
+}
+
+h1 {color:skyblue;border: 1px solid lightseagreen;padding: 1px;
+animation-name: change;
+animation-duration: 4s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+
+
+h2 {color:skyblue;border: 1px solid lightseagreen}
+
+
+
+
+
+
+ul {
+color:orange
+}
+a:link {
+    background-color: orange;
+    color:black;
+    padding: 1px 1px;
+    text-align: center;
+    display: inline-block;
+}
+a:visited {
+    color:green;
+}
+a:hover {
+    color: skyblue;
+}
+a:active {
+    color:white
+}
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    line-height: 25px;
+    color:orange;
+}
+table, th, td {
+    border: 1px solid skyblue;
+    border-collapse: collapse;
+    border-spacing: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+
+}
